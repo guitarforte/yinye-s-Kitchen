@@ -1,0 +1,746 @@
+body {
+  font-size: 12px;
+  color: #070707;
+}
+#header-nav {
+  background-color: blanchedalmond;
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  background: url(../../images/jollof-rice.jpg);
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 100%;
+  background-size: cover;
+	background-position: center;  
+  top: 0;
+  left: 0;
+}
+.navbar_box_one {
+  background: url(../../images/Navbar_box_one.png);
+  background-repeat: no-repeat; 
+  width: 65.5%;
+  height: 500px;
+  z-index: 9 !important;
+  margin-left: 35%;
+  background-size: cover;
+	background-position: center; 
+}
+.navbar-toggler {
+  margin-left: 70% !important;
+  width: 12% !important;
+  height: 12%;
+  padding: 0%;
+}
+
+#firstPage {
+  width: 100%;
+  background-color:   #2F2E2E;
+}
+#logo-img {
+  background: url(../../images/chefyinyeresize.png);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+  scale: 100%;
+}
+.pull-left {
+  float: left;
+}
+.navbar-nav {
+  margin-left: 60%;
+}
+.nav-link {
+  color: white !important;
+}
+.navbar-toggler {
+  margin-left: 20%;
+  background-color: white;
+}
+#textBox {
+  width: 80%;
+  margin: auto;
+  line-height: 0.7;
+  padding-top: 8%;
+}
+#textBox > p:nth-child(1) {
+  font-family: Lobster;
+  font-style: Regular;
+  font-size: 4rem;
+  line-height: 4.5rem;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 0.45%;
+  color: #f8bc01;
+  font-weight: 400;
+}
+#textBox > p:nth-child(2) {
+  font-family: Proza Libre;
+  font-style: Medium;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 0.45%;
+  color: #f8bc01;
+  font-weight: 200;
+  color: #ffffff;
+}
+button {
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+  font-family: sans-serif;
+  padding: 5px 10px 5px 10px;
+  font-size: small;
+  width: 120px;
+  height: 30px;
+}
+button:hover,
+button:focus {
+  text-decoration: none;
+  padding: 7px 7px;
+  box-shadow: 1px 0px 0.5px 0.5px #1d1c1c;
+  opacity: 0.6;
+  color: white;
+}
+button > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+.panel-footer {
+  background-color: black;
+  color: white;
+}
+
+#carouselContainer > p:nth-child(1) {
+  color: #f8bc01;
+  font-family: lobster;
+  text-align: center;
+  font-size: 400%;
+}
+#carouselContainer > p:nth-child(2) {
+  color: black;
+  font-family: proza libre;
+  text-align: center;
+  font-size: 200%;
+}
+#subscribeBox {
+  text-align: center;
+}
+#subscribeBox > h4 {
+  font-family: lobster;
+  font-size: large;
+}
+#subscribeBox > p {
+  font-family: proza libre;
+  font-size: medium;
+}
+#email {
+  width: 25%;
+  height: 37px;
+}
+#chooseUsTab {
+  background-color: black;
+  text-align: center;
+}
+#chooseUsTab > p:nth-child(1) {
+  color: #f8bc01;
+  font-family: lobster;
+  font-size: 400%;
+}
+
+#chooseUsTab > p:nth-child(2) {
+  color: white;
+  font-family: Proza Libre;
+  width: 60%;
+  margin: auto;
+  font-size: 150%;
+}
+#chooseUsTab > button {
+  width: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* PRODUCTS */
+.product {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.product-category {
+  padding: 0 10vw;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.product-container {
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 460px;
+  margin-right: 40px;
+}
+
+.product-image {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.product-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.discount-tag {
+  position: absolute;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ff7d7d;
+  right: 10px;
+  top: 10px;
+  text-transform: capitalize;
+}
+.Number-of-menu {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  width: 90%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #070707;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+}
+.Number-of-menu:hover{
+  background: #ff7d7d;
+  color: white;
+}
+.product-card:hover .Number-of-menu {
+  opacity: 1;
+}
+.card-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  width: 90%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  color:black;
+  background: #fff;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.product-card:hover .card-btn {
+  opacity: 1;
+}
+
+.card-btn:hover {
+  background: #ff7d7d;
+  color: #fff;
+}
+
+.product-info {
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.product-brand {
+  text-transform: uppercase;
+}
+
+.product-short-description {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  opacity: 0.5;
+  text-transform: capitalize;
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.actual-price {
+  margin-left: 20px;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 10vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  cursor: pointer;
+  z-index: 8;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+}
+
+.collection-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.collection {
+  position: relative;
+}
+
+.collection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.collection p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.collection:nth-child(3) {
+  grid-column: span 2;
+  margin-bottom: 10px;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* column two */
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand {
+    background: url(../../images/jollof-rice.jpg);
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 100%;
+  background-size: cover;
+	background-position: center;  
+  top: 0;
+  left: 0;
+  }
+  .navbar_box_one {
+
+    background: url(../../images/Navbar_box_one.png);
+    background-repeat: no-repeat;
+    width: 65.5%;
+    height: 500px;
+    z-index: 9 !important;
+    margin-left: 35%;
+    background-size: cover;
+    
+  }
+  .navbar-toggler {
+    margin-left: 77% !important;
+    width: 12% !important;
+    height: 12%;
+    padding: 0%;
+  }
+
+  #firstPage {
+    width: 100%;
+  }
+  #logo-img {
+    background: url(../../images/chefyinyeresize.png);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    scale: 100%;
+  }
+  .pull-left {
+    float: left;
+  }
+  .navbar-nav {
+    margin-left: 80%;
+    position: absolute;
+  }
+  .nav-link {
+    color: white !important;
+  }
+  .navbar-toggler {
+    background-color: white;
+  }
+  #textBox {
+    width: 70%;
+    margin: auto;
+    line-height: 0.7;
+    padding-top: 17%;
+  }
+  #textBox > p:nth-child(1) {
+    font-family: Lobster;
+    font-style: Regular;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    line-height: 100%;
+    vertical-align: Top;
+    letter-spacing: 0.45%;
+    color: #f8bc01;
+    font-weight: 400;
+  }
+  #textBox > p:nth-child(2) {
+    font-family: Proza Libre;
+    font-style: Medium;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    line-height: 100%;
+    vertical-align: Top;
+    letter-spacing: 0.45%;
+    color: #f8bc01;
+    font-weight: 200;
+    color: #ffffff;
+  }
+  button {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+    padding: 5px 10px 5px 10px;
+    font-size: small;
+    width: 100px;
+    height: 30px;
+  }
+  button:hover,
+  button:focus {
+    text-decoration: none;
+    padding: 7px 7px;
+    box-shadow: 1px 0px 0.5px 0.5px #1d1c1c;
+    opacity: 0.6;
+    color: white;
+  }
+  button > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (min-width: 560px) and (max-width: 767px) {
+  /* column two */
+  .navbar-brand {
+    background: url(../../images/jollof-rice.jpg);
+  background-repeat: no-repeat;
+  width: 75%;
+  height: 100%;
+  background-size: cover;
+	background-position: center;  
+  top: 0;
+  left: 0;
+  }
+  .navbar_box_one {
+
+    background: url(../../images/Navbar_box_one.png);
+    background-repeat: no-repeat;
+    width: 65.5%;
+    height: 500px;
+    z-index: 9 !important;
+    margin-left: 35%;
+    background-size: cover;
+   
+    
+  }
+  .navbar-toggler {
+    margin-left: 77% !important;
+    width: 12% !important;
+    height: 12%;
+    padding: 0%;
+  }
+
+  #firstPage {
+    width: 100%;
+  }
+  #logo-img {
+    background: url(../../images/chefyinyeresize.png);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    scale: 100%;
+  }
+  .pull-left {
+    float: left;
+  }
+  .navbar-nav {
+    margin-left: 80%;
+    position: absolute;
+  }
+  .nav-link {
+    color: white !important;
+  }
+  .navbar-toggler {
+    background-color: white;
+  }
+  #textBox {
+    width: 70%;
+    margin: auto;
+    line-height: 0.7;
+    padding-top: 17%;
+  }
+  #textBox > p:nth-child(1) {
+    font-family: Lobster;
+    font-style: Regular;
+    font-size: 2.5rem;
+    line-height: 4.5rem;
+    line-height: 100%;
+    vertical-align: Top;
+    letter-spacing: 0.45%;
+    color: #f8bc01;
+    font-weight: 400;
+  }
+  #textBox > p:nth-child(2) {
+    font-family: Proza Libre;
+    font-style: Medium;
+    font-size: 1rem;
+    line-height: 0.8rem;
+    line-height: 100%;
+    vertical-align: Top;
+    letter-spacing: 0.45%;
+    color: #f8bc01;
+    font-weight: 200;
+    color: #ffffff;
+  }
+  button {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+    padding: 5px 10px 5px 10px;
+    font-size: small;
+    width: 100px;
+    height: 30px;
+  }
+  button:hover,
+  button:focus {
+    text-decoration: none;
+    padding: 7px 7px;
+    box-shadow: 1px 0px 0.5px 0.5px #1d1c1c;
+    opacity: 0.6;
+    color: white;
+  }
+  button > a {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+  }
+}
+
+/********** Extra Extra small devices only **********/
+@media (max-width: 560px) {
+  .navbar-brand {
+    background: url(../../images/jollof-rice.jpg);
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 100%;
+  background-size: cover; 
+	background-position: center;  
+  top: 0;
+  left: 0;
+  }
+  .navbar_box_one {
+     background: url(../../images/Navbar_box_one.png);
+  background-repeat: no-repeat;
+  width: 65.5%;
+  height: 500px;
+  z-index: 9 !important;
+  margin-left: 35%;
+  
+  }
+  .navbar-toggler {
+    margin-left: 77% !important;
+    width: 12% !important;
+    height: 12%;
+    padding: 0%;
+  }
+
+  #firstPage {
+    width: 100%;
+  }
+  #logo-img {
+    background: url(../../images/chefyinyeresize.png);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    scale: 100%;
+  }
+  #textBox {
+    width: 70%;
+    margin: auto;
+    line-height: 0.7;
+    padding-top: 19%;
+  }
+  #textBox > p:nth-child(1) {
+    font-family: Lobster;
+    font-style: Regular;
+    font-size: 1.9rem;
+    line-height: 4.5rem;
+    line-height: 100%;
+    vertical-align: Top;
+    letter-spacing: 0.45%;
+    color: #f8bc01;
+    font-weight: 400;
+  }
+  #textBox > p:nth-child(2) {
+    font-family: Proza Libre;
+    font-style: Medium;
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+    line-height: 100%;
+    vertical-align: Top;
+    letter-spacing: 0.45%;
+    color: #f8bc01;
+    font-weight: 200;
+    color: #ffffff;
+  }
+  button {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+    padding: 5px 10px 5px 10px;
+    font-size: small;
+    width: 100px;
+    height: 30px;
+  }
+  button:hover,
+  button:focus {
+    text-decoration: none;
+    padding: 7px 7px;
+    box-shadow: 1px 0px 0.5px 0.5px #1d1c1c;
+    opacity: 0.6;
+    color: white;
+  }
+  button > a {
+    text-decoration: none;
+    color: black;
+    font-weight:400;
+  }
+  #carouselContainer > p:nth-child(1) {
+    color: #f8bc01;
+    font-family: lobster;
+    text-align: center;
+    font-size: 250%;
+  }
+  #carouselContainer > p:nth-child(2) {
+    color: black;
+    font-family: proza libre;
+    text-align: center;
+    font-size: 100%;
+  }
+  #subscribeBox {
+    text-align: center;
+  }
+  #subscribeBox > h4 {
+    font-family: lobster;
+    font-size: medium;
+  }
+  #subscribeBox > p {
+    font-family: proza libre;
+    font-size: small;
+  }
+  #email {
+    width: 35%;
+    height: 20px;
+  }
+  #chooseUsTab {
+    background-color: black;
+    text-align: center;
+  }
+  #chooseUsTab > p:nth-child(1) {
+    color: #f8bc01;
+    font-family: lobster;
+    font-size: 250%;
+  }
+  
+  #chooseUsTab > p:nth-child(2) {
+    color: white;
+    font-family: Proza Libre;
+    width: 60%;
+    margin: auto;
+    font-size: 100%;
+  }
+  #chooseUsTab > button {
+    width: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .navbar-nav {
+    margin-left: 60%;
+    position: absolute;
+  }
+}
